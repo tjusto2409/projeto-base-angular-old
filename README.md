@@ -2,7 +2,12 @@
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
 
 ## Sumário
-- [Por que estruturar as pastas do projeto Web?](#estrutura)
+1. [Objetivo](#objetivo)
+1. [Por que estruturar as pastas do projeto Web?](#estrutura)
+
+## <a name=objetivo><a/> Por que utilizar um projeto base de Angular se ele já é um framework?
+
+Quando começamos a utilizar o Angular, vemos como sua curva de aprendizado é longa e escalável. Facilmente quem está iniciando nele, se perde ao criar components, pipes, diretivas etc, espalhando-os por todo o projeto.
 
 ## <a name=estrutura><a/> Por que estruturar as pastas do projeto Web?
 
