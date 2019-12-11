@@ -1,7 +1,10 @@
 # Projeto Base Angular
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
 
-## Por que estruturar as pastas do projeto Web?
+## Sumário
+- [Por que estruturar as pastas do projeto Web?](#estrutura)
+
+## <a name=estrutura><a/> Por que estruturar as pastas do projeto Web?
 
 Melhores práticas trazem benefícios concretos para a empresa. Seguir uma boa prática é como um atalho. Existem outros caminhos. Às vezes não sabemos o porquê do atalho. Mas seguir por ele aumenta as chances de sucesso. Os benefícios a longo prazo trazem ganhos na qualidade do software.
 
@@ -13,13 +16,9 @@ O código será mais simples escalar. Adicionar novos componentes, módulos e p�
 
 Debugar o código será mais transparente com essa abordagem modularizada. Manter uma estrutura coesa traz benefícios para encontrar bugs e corrigi-los.
 
-## Um jeito diferente do cli
-
-Não existem balas de prata ao tentar criar uma estrutura de pastas eficientes para Angular. Vai depender das funcionalidades e do tamanho do projeto. A estrutura vai mudar muito dependendo do projeto. Este artigo vai propor e explicar o cenário de um projeto estruturado em módulos. Com componentes e shared services.
-
 ## A estrutura
 
-Abaixo a estrutura proposta para projetos de grande porte
+Abaixo a estrutura proposta para projetos de grande porte:
 
 ```
 |-- modules
