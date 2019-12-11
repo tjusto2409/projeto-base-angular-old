@@ -2,9 +2,15 @@
   "name": "dashboard",
   "version": "0.0.0",
   "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm lint",
+      "pre-push": "npm lint"
+    }
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 3200",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -12,6 +18,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
@@ -21,23 +28,30 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0",
+    "ng2-mask": "^1.1.1",
+    "ngx-toastr": "^6.5.0",
     "rxjs": "^5.1.0",
+    "sweetalert2": "^6.9.0",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
     "@angular/cli": "1.0.4",
     "@angular/compiler-cli": "^4.0.0",
     "@types/jasmine": "2.5.38",
+    "@types/jquery": "^3.3.31",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
+    "husky": "^3.1.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
     "karma-chrome-launcher": "~2.1.1",
     "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
-    "karma-coverage-istanbul-reporter": "^0.2.0",
     "protractor": "~5.1.0",
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
