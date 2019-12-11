@@ -91,7 +91,7 @@ Créditos: [Angular - Como estruturar componentes em grandes projetos](https://w
 
 Tentamos instalar o mínimo de dependências iniciais possíveis para dar liberdade para o desenvolvedor poder escolher o melhor caminho a qual seguir. Pensando nisso, disponibilizamos somente alguns pacotes a qual achamos que poderá ser utilizado em qualquer projeto desenvolvido pela sua equipe.
 
-**Se sinta a vontade para desinstala-los caso não for usa-los.**
+> **Se sinta a vontade para desinstala-los caso não for usa-los.**
 
 Lista:
 
