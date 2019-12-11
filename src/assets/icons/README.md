@@ -4,6 +4,6 @@ Repositório para acrescentar as fonts do projeto. Edite esse arquivo com as inf
 
 Segue links de Icon Fonts para UI Design que poderão ser utilizados:
 
-- [Fontello] (http://fontello.com/)
-- [Font Awesome] (https://fontawesome.com/icons)
-- [Icofont] (https://icofont.com/icons)
+- [Fontello](http://fontello.com/)
+- [Font Awesome](https://fontawesome.com/icons)
+- [Icofont](https://icofont.com/icons)
