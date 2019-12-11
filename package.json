@@ -2,12 +2,6 @@
   "name": "dashboard",
   "version": "0.0.0",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm lint",
-      "pre-push": "npm lint"
-    }
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 3200",
@@ -43,7 +37,6 @@
     "@types/jquery": "^3.3.31",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
-    "husky": "^3.1.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
