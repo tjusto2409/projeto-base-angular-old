@@ -85,13 +85,13 @@ O core module deve conter serviços singleton, componentes universais e outros r
 
 O shared é onde todos os componentes compartilhados, pipes, filters e services devem ir. O shared pode ser importado em qualquer module. Assim esses itens serão reutilizados. O shared module deve ser independente do restante do aplicativo. Portanto, não deve ter referências de outro módulo.
 
-Créditos: [Angular - Como estruturar componentes em grandes projetos](https://www.brunobrito.net.br/estruturando-components-angular/)
+***Créditos:*** [Angular - Como estruturar componentes em grandes projetos](https://www.brunobrito.net.br/estruturando-components-angular/)
 
 ## <a name=dependencias><a/> Dependências
 
 Tentamos instalar o mínimo de dependências iniciais possíveis para dar liberdade para o desenvolvedor poder escolher o melhor caminho a qual seguir. Pensando nisso, disponibilizamos somente alguns pacotes a qual achamos que poderá ser utilizado em qualquer projeto desenvolvido pela sua equipe.
 
-> **Se sinta a vontade para desinstala-los caso não for usa-los.**
+> **Se sinta a vontade para desinstala-los caso não for usá-los.**
 
 Lista:
 
